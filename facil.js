@@ -1,5 +1,5 @@
 //Imagenes
-let imgPreguntas = ["F1.png", "F2.jpg", "F3.jpg", "F4.jpg", "F5.jpg", "F6.png", "F7.png", "F8.png", "F9.jpg", "F10.jpg",];
+let imgPreguntas = ["F1.png", "F2.jpg", "F3.jpg", "F4.jpg", "F5.jpg", "F6.png", "F7.png", "F8.png", "F9.png", "F10.jpg",];
 
 //Preguntas
 let preguntas = [

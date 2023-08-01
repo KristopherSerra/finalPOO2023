@@ -52,12 +52,13 @@ p {
 }
 
 h1 {
-  width: fit-content;
+  min-width: 350px;
   background-color: #fff;
   border-radius: 60px;
-  padding: 20px 40px;
+  padding: 10px 0px;
   box-shadow: 10px 8px 8px #000;
   font-size: small;
+  margin-left: -30px;
 }
 
 .correctas {
@@ -179,8 +180,10 @@ h1 {
 }
 
 .pantalla-juego img {
-  max-width: 50%;
-  min-width: 50%;
+  max-width: 162px;
+  min-width: 162px;
+  max-height: 200px;
+  min-height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -189,6 +192,7 @@ h1 {
   border: 5px solid #fff;
   box-shadow: 3px 12px 13px #000;
 }
+
 
 .opciones {
   max-width: 90%;

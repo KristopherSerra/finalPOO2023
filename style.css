@@ -177,6 +177,8 @@ h1 {
   max-width: 90%;
   margin: 50px auto;
   text-align: center;
+  min-height: fit-content;
+  max-height: 70%;
 }
 
 .pantalla-juego img {

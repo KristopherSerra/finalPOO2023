@@ -4,7 +4,7 @@ let imgPreguntas = ["F1.png", "F2.jpg", "F3.jpg", "F4.jpg", "F5.jpg", "F6.png", 
 //Preguntas
 let preguntas = [
     "1. ¿EN QUE AÑO SE ESTRENO LA PRIMERA PELICULA DE IRON MAN?",
-    "2. ¿CÓMO SE LLAMA EL MARTILLO DE THOR?",
+    "2. ¿CÓMO SE LLAMA EL MITOLOGICO MARTILLO DE THOR?",
     "3. ¿QUIÉN ES EL EL ACTOR QUE INTRERETA A HULK EN EL MCU?",
     "4. ¿DE QUE ESTA HECHO EL ESCUDO DEL CAPITAN AMERICA?",
     "5. ¿CUÁL ES LA PRIMER FAMILIA DE MARVEL EN LOS COMICS?",

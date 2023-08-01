@@ -14,7 +14,7 @@
   border-radius: 2%;
   min-width: 360px;
   max-width: 360px;
-  min-height: 80%;
+  min-height: fit-content;
   max-height: 80%;
   margin: 2%;
 }

@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<title> Nivel Dificil</title>
-
+<html>
+<title> Nivel Medio</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" class="icono">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
-<script src="dificil.js"></script>
-<script src="scrypt.js"></script>
 
-<body background="img/fondo.png">
+<script src="scrypt.js"> </script>
+<script src="dificil.js"> </script>
+
+
+<body>
+
     <div class="card">
-
         <!-- Pantalla inicial -->
         <div id="pantalla-inicial">
+
             <img src="img/Dificil.png" class="imgMain">
             <br>
             <button class="btn" onclick="comenzarJuego()">COMENZAR A JUGAR</button>
@@ -25,22 +26,24 @@
         <!-- Pantalla juego -->
         <div class="pantalla-juego" id="pantalla-juego">
             <div class="contenedor">
+                <img src="img/1.png" alt="" id="imgPregunta" class="img">
                 <div class="opciones">
+
                     <h1 id="Preguntas"></h1>
-                    <img src="img/1.png" alt="" id="imgPregunta" class="img">
-                    <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                    
+                    <div class="opcion" id="op0" onclick="(comprobarRespuesta(0))">
                         <div class="letra" id="l0">A</div>
                         <div class="respuesta" id="n0">OPCION A</div>
                     </div>
-                    <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                    <div class="opcion" id="op1" onclick="(comprobarRespuesta(1))">
                         <div class="letra" id="l1">B</div>
                         <div class="respuesta" id="n1">OPCION B</div>
                     </div>
-                    <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                    <div class="opcion" id="op2" onclick="(comprobarRespuesta(2))">
                         <div class="letra" id="l2">C</div>
                         <div class="respuesta" id="n2">OPCION C</div>
                     </div>
-                    <div class="opcion" id="op3" onclick="comprobarRespuesta(3)">
+                    <div class="opcion" id="op3" onclick="(comprobarRespuesta(3))">
                         <div class="letra" id="l3">D</div>
                         <div class="respuesta" id="n3">OPCION D</div>
                     </div>
@@ -53,5 +56,8 @@
             <button class="btn" onclick="VolverAlIndex()">VOLVER AL MENU</button>
         </div>
     </div>
+
+
 </body>
+
 </html>

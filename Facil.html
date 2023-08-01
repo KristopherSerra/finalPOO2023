@@ -16,52 +16,51 @@
 
 <body>
 
-<div class="card">
-    <!-- Pantalla inicial -->
-    <div id="pantalla-inicial">
-        
-        <img src="img/Facil.png" class="imgMain">
-        <br>
-        <button class="btn" onclick="comenzarJuego()">COMENZAR A JUGAR</button>
-        <button class="back" onclick="VolverAlIndex()">MENU PRINCIPAL</button>
-    </div>
+    <div class="card">
+        <!-- Pantalla inicial -->
+        <div id="pantalla-inicial">
 
-    <!-- Pantalla juego -->
-    <div class="pantalla-juego" id="pantalla-juego">
-        <div class="contenedor">
-            
-        
-        <div class="opciones">
-            
-            <h1 id="Preguntas"></h1>
-            <img src="img/1.png" alt="" id="imgPregunta" class="img">
-            <div class="opcion" id="op0" onclick="(comprobarRespuesta(0))">
-                <div class="letra" id="l0">A</div>
-                <div class="respuesta" id="n0">OPCION A</div>
-            </div>
-            <div class="opcion" id="op1"onclick="(comprobarRespuesta(1))">
-                <div class="letra" id="l1">B</div>
-                <div class="respuesta" id="n1">OPCION B</div>
-            </div>
-            <div class="opcion" id="op2" onclick="(comprobarRespuesta(2))">
-                <div class="letra" id="l2">C</div>
-                <div class="respuesta" id="n2">OPCION C</div>
-            </div>
-            <div class="opcion" id="op3" onclick="(comprobarRespuesta(3))">
-                <div class="letra" id="l3">D</div>
-                <div class="respuesta" id="n3">OPCION D</div>
+            <img src="img/Facil.png" class="imgMain">
+            <br>
+            <button class="btn" onclick="comenzarJuego()">COMENZAR A JUGAR</button>
+            <button class="back" onclick="VolverAlIndex()">MENU PRINCIPAL</button>
+        </div>
+
+        <!-- Pantalla juego -->
+        <div class="pantalla-juego" id="pantalla-juego">
+            <div class="contenedor">
+                <img src="img/1.png" alt="" id="imgPregunta" class="img">
+                <div class="opciones">
+
+                    <h1 id="Preguntas"></h1>
+                    
+                    <div class="opcion" id="op0" onclick="(comprobarRespuesta(0))">
+                        <div class="letra" id="l0">A</div>
+                        <div class="respuesta" id="n0">OPCION A</div>
+                    </div>
+                    <div class="opcion" id="op1" onclick="(comprobarRespuesta(1))">
+                        <div class="letra" id="l1">B</div>
+                        <div class="respuesta" id="n1">OPCION B</div>
+                    </div>
+                    <div class="opcion" id="op2" onclick="(comprobarRespuesta(2))">
+                        <div class="letra" id="l2">C</div>
+                        <div class="respuesta" id="n2">OPCION C</div>
+                    </div>
+                    <div class="opcion" id="op3" onclick="(comprobarRespuesta(3))">
+                        <div class="letra" id="l3">D</div>
+                        <div class="respuesta" id="n3">OPCION D</div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div id="pantalla-final">
+            <h2>RESPUESTAS CORRECTAS: <p id="numCorrectas"></p>%</h2>
+            <img src="img/1.svg" alt="" id="imgFinal" class="gif"><br>
+            <button class="btn" onclick="VolverAlIndex()">VOLVER AL MENU</button>
         </div>
     </div>
-    <div id="pantalla-final">
-        <h2>RESPUESTAS CORRECTAS: <p id="numCorrectas"></p>%</h2>
-        <img src="img/1.svg" alt="" id="imgFinal" class="gif"><br>
-        <button class="btn" onclick="VolverAlIndex()">VOLVER AL MENU</button>
-    </div>
-</div>
 
-    
+
 </body>
 
 </html>

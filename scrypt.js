@@ -40,7 +40,9 @@ function cargarPregunta() {
         document.getElementById("n1").innerHTML = opciones[posActual][1]; //B
         document.getElementById("n2").innerHTML = opciones[posActual][2]; //C
         document.getElementById("n3").innerHTML = opciones[posActual][3]; //D
+        
     }
+    setTimeout(limpiarOpciones, 1000);
 }
 
 function limpiarOpciones() {

@@ -238,15 +238,14 @@ h1 {
 .opcion .respuesta {
   background: #fff;
   width: 92%;
-  font-size: large;
   position: absolute;
-  margin-left: 30px;
+  margin-left: 40px;
   z-index: -2;
   border-radius: 0 20px 20px 0;
-  padding: 3%;
+  padding: 5%;
   box-shadow: 10px 8px 8px #000;
   font-family: "Paddington";
-  font-size: medium;
+  font-size: small;
 }
 
 .opcion .respuestaAcertada {
@@ -334,13 +333,13 @@ p{
     font-size: large;
 }
 h1{
-    width:435px;
+    min-width: 350px;
     background-color: #fff;
-    margin: 40px auto;
     border-radius: 60px;
-    padding: 20px 20px 20px 20px;
-    margin-top: -70px;
+    padding: 10px 0px;
     box-shadow: 10px 8px 8px #000;
+    font-size: 60%;
+    margin-left: -30px;
 }
 .correctas{
     width: fit-content;
@@ -538,4 +537,6 @@ h1{
     height: 50px;
     border-radius: 50%;
     color: #008807;
+}
+
 }

@@ -10,13 +10,13 @@
   max-width: 100%;
 }
 .card {
-  background-color: #960508;
-  border-radius: 2%;
-  min-width: inherit;
-  max-width: fit-content;
-  min-height: inherit;
-  max-height: inherit;
-  margin: 2%;
+background-color: #960508;
+border-radius: 2%;
+min-width: inherit;
+max-width: 372px;
+min-height: inherit;
+max-height: 100%;
+margin: 2%;
 }
 
 body {
